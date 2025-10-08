@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="process.jsp" method="GET">
+
+<fieldset>
+<legend>My Form</legend>
+<label>Year:</label><input type="text" name="yearForm"><br>
+<label>Season:</label><select name="seasonForm">
+<option value="UNKNOWN">Select...</option>
+<option value="summer">summer</option>
+<option value="winter">winter</option>
+<option value="spring">spring</option>
+<option value="autumn">autumn</option>
+</select>
+<br>
+<label>Title:</label><input type="text" name="titleForm"><br>
+<input type="submit" value="submit">
+
+</fieldset>
+
+</form>
+
+<form action="listleagues.jsp" method="GET">
+
+<h2>Click the below button to get all the registered leagues:</h2>
+<input type="submit" value="click me">
+
+
+</form>
+
+</body>
+</html>
